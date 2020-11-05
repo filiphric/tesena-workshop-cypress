@@ -5,19 +5,19 @@ Repository for Tesena fest online workshop on the topic of test automation with 
 My name is Filip. I’m a QA lead in [Slido](https://www.sli.do/) and a [Cypress ambassador](https://cypress.io/ambassadors/)
 
 ## What you’l find here
-You’ll find the application we are going to be testinSúčasťou repozitára je aplikácia a všetky učebné materiály ku workshopu. Väčšina kapitol kurzu začína súborom `zaciatok.js` alebo `zaciatok.ts`, ktoré je opísané vo videu. Počas workshopu môžeš písať kód spoločne so mnou. Konečný stav kódu je uložený v súbore `zaver.js` alebo `zaver.ts`. Väčšina kapitol taktiež obsahuje súbor `zoznamsa.js` alebo `zoznamsa.ts`, v ktorom je možné vyskúšať si popísané koncepty. Riešenie úloh je možné nájsť vždy popísané vo videu.
+You’ll find the application we are going to be testing and all education materials for the workshop.
 
 ## Trello app
-Aplikácia je kópiou aplikácie Trello. V aplikácii možno vytvárať boardy a zoznamy úloh. Medzi boardami je možné úlohy presúvať meniť ich stav, nastaviť im deadline či dokonca uploadnúť obrázok.
+App is a clone of popular application Trello. You can create boards, lists and tasks. You can change state of your board and task, set deadlines and upload pictures.
 
-### Inštalácia
-Inštalácia je jednoduchá, stačí zadať príkaz
+### Installation
+Very simple:
 1. `npm install`
 2. `npm start`
-3. A otvoriť aplikáciu v prehliadači na lokalite http://localhost:3000
+3. Open the app on http://localhost:3000
 
-### Databáza
-Databázou je obyčajný json súbor, nachádzajúci sa v `trelloapp/public/data/data.json`. Uploadované súbory sa ukladajú do foldra `trelloapp/public/images`.
+### Database
+Database is just a symple json file that you can find in `trelloapp/public/data/data.json`. Uploaded images are saved to `trelloapp/public/images`.
 
 ### Špeciálne API endpointy určené na uľahčenie práce s aplikáciou
 - Toto je zoznam endpointov, ktoré nevolá samotná aplikácia, no umožňujú meniť stav databázy podľa požiadaviek
