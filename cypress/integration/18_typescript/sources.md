@@ -1,4 +1,4 @@
-## Užitočné čítanie
+## Useful reading
 * [Cypress dokumentácia k TypeScriptu](https://docs.cypress.io/guides/tooling/typescript-support.html#Configure-tsconfig-json)
 * [domovská stránka typescriptu](https://www.typescriptlang.org/)
 * [krátke intro video o tom, čo je to TypeScript](https://www.youtube.com/watch?v=ahCwqrYpIuM)
