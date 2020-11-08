@@ -3,30 +3,30 @@
 beforeEach( () => {
 
   cy
-    .visit(); // doplň si adresu svojho boardu
+    .visit(); // add url of your board
 
 })
 
-it('vytvorenie listu', () => {
+it('creates a new list', () => {
 
 })
 
-it('overenie poctu listov', () => {
+it('asserts the number of lists', () => {
 
 })
 
-it('odstranenie listu', () => {
+it('deletes a list', () => {
 
 })
 
-it('overenie odskrtnutia', () => {
+it('checks off a list', () => {
 
 })
 
-it('overenie názvu listu', () => {
+it('checks name of the list', () => {
 
 })
 
-it('overenie textu na pridanie tasku (add card)', () => {
+it('checks the text of button for creating a new task (add new task)', () => {
 
 })

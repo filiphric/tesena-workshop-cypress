@@ -7,14 +7,14 @@ beforeEach( () => {
 
 });
 
-it('v zozname je mlieko', () => {
+it('„buy milk“ is in the list', () => {
 
 });
 
-it('v druhom zozname je mlieko', () => {
+it('„buy milk“ is in the other list', () => {
 
 });
 
-it('v druhom zozname je len jeden task', () => {
+it('there’s only one task in second list', () => {
 
 });

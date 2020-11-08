@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-it('oznacovanie elementov', () => {
+it('selecting elements', () => {
 
   cy
     .visit('/');

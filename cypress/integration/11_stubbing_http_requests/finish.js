@@ -17,7 +17,11 @@ beforeEach( () => {
 
 });
 
-it('show correct error message', () => {
+it.only('empty board list', () => {
+
+})
+
+it('error message while creating board', () => {
 
   cy
     .get('#new-board')

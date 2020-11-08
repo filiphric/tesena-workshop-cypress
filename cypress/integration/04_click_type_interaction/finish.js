@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-it('vytvorenie nového boardu', () => {
+it('creating new board', () => {
 
   cy
     .visit('/');
@@ -12,10 +12,10 @@ it('vytvorenie nového boardu', () => {
   cy
     .get('#new-board input')
     .type('new board{enter}');
-  
+
 });
 
-it('označenie boardu hviezdičkou', () => {
+it('marking a board as starred', () => {
 
   cy
     .visit('/');
@@ -23,10 +23,10 @@ it('označenie boardu hviezdičkou', () => {
   cy
     .get('.Star')
     .click({force: true})
-  
+
 });
 
-it('označenie tasku', () => {
+it('checking off a task', () => {
 
   cy
     .visit('/board/82425010767');
@@ -34,5 +34,5 @@ it('označenie tasku', () => {
   cy
     .get('.Task input')
     .check();
-  
+
 });

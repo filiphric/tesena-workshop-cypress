@@ -7,7 +7,7 @@ beforeEach( () => {
 
 });
 
-it.only('nacitanie zoznamu boardov', () => {
+it.only('loading list of boards', () => {
 
   cy
     .get('.board_item')
@@ -15,7 +15,7 @@ it.only('nacitanie zoznamu boardov', () => {
 
 })
 
-it('vytvorenie noveho boardu', () => {
+it('creating a new board', () => {
 
   cy
     .get('#new-board')
@@ -24,7 +24,7 @@ it('vytvorenie noveho boardu', () => {
   cy
     .get('.board_addBoard')
     .type('nova zahrada')
-  
+
   cy
     .contains('Save')
     .click()

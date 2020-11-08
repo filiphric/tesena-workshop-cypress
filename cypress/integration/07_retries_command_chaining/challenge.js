@@ -3,16 +3,18 @@
 beforeEach( () => {
 
   cy
-    .visit(); // doplň si adresu svojho boardu
+    .visit(); // add url of your board
 
 });
 
-// ⚠️ pred začiatkom testovania si prosím vytvor dva zoznamy
-// použi príkaz .contains()
-it('pridanie položky do druhého zoznamu', () => {
+// ⚠️ before the challenge, please creat two lists
+
+// use .contains() command
+it('add a task into second list', () => {
 
 })
 
-it('nastavenie timeoutu', () => {
+// try to add a timeout to your command
+it('setting up a timeout', () => {
 
 })

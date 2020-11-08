@@ -14,20 +14,20 @@ beforeEach( () => {
 
 });
 
-it('zoznam dvoch boardov z fixture', () => {
+it('loads two boards from fixture', () => {
 
-  // použi súbor twoBoards.json z fixtures foldra. do tohto it() bloku nemusíš nič písať. stačí, že zmeníš .route() príkaz v beforeEach bloku
-
-})
-
-it('zoznam boardov s hviezdickou z fixture', () => {
-
-  // ak sa Ti podarilo splniť predošlú úlohu, stačí si vyfiltrovať tento test a zmeniť dáta v súbore twoBoards.json po uložení testu a súboru twoBoards.json by si mal/a vidieť správny výsledok
+  // use the file twoBoards.json from fixtures folder.
 
 })
 
-it('chyba pri vytvoreni tasku', () => {
+it('loads a starred board', () => {
 
-  // pridaj si ďalší .route() príkaz, ktorým si odchytíš api volanie, ktoré sa robí pri vytvorení tasku. nahraď odpoveď tak, aby zo servra prišiel chybový status kód. dôležitá poznámka: pri nahradzovaní odpovede je parameter „response“ povinný
+  // change data in twoBoards.json fixture so that you will load one board that is in „starred list
+
+})
+
+it('error while creating task', () => {
+
+  // add another .route() coommand and spy on api call that fires when creating a new task. stub an error response and write a test for the error message that appears
 
 })

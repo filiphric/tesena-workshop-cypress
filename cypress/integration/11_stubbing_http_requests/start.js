@@ -14,11 +14,11 @@ beforeEach( () => {
 
 });
 
-it.only('prazdny zoznam boardov', () => {
+it.only('empty board list', () => {
 
 })
 
-it('chybova hlaska pri vytvoreni boardu', () => {
+it('error message while creating board', () => {
 
   cy
     .get('#new-board')
@@ -26,7 +26,7 @@ it('chybova hlaska pri vytvoreni boardu', () => {
 
   cy
     .get('.board_addBoard')
-    .type('nova zahrada')
+    .type('new garden')
 
   cy
     .contains('Save')

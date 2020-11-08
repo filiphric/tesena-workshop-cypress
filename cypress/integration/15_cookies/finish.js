@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 
 Cypress.Cookies.defaults({
-  whitelist: 'trello_token'
+  preserve: 'trello_token'
 })
 
 it('nastavovanie cookies', () => {
@@ -12,5 +12,5 @@ it('nastavovanie cookies', () => {
   cy
     .visit('/')
 
-    
+
 })

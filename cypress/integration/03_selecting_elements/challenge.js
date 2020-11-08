@@ -1,14 +1,14 @@
 /// <reference types="cypress" />
 
-it('oznacovanie elementov', () => {
+it('selecting elements', () => {
 
-  /* 
+  /*
 
-  úloha #1: označ nadpis „My boards“ pomocou príkazu .get()
-  úloha #2: označ nadpis „My boards“ pomocou príkazu .contains()
-  úloha #3: vytvor si board a označ jeho názov pomocou príkazu .get()
-  úloha #4: vytvor si board a označ jeho názov pomocou príkazu .contains()
-  
+  challenge #1: select „My boards“ heading using .get() command
+  challenge #2: select „My boards“ heading using .contains() command
+  challenge #3: manually create a board and select it using .get() command
+  challenge #4: manually create a board and select it using .contains() command
+
   */
 
 })

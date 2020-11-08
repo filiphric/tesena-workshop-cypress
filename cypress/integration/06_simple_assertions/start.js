@@ -7,18 +7,19 @@ beforeEach( () => {
 
 })
 
-it('vytvorenie tasku', () => {
+it('creates a task', () => {
 
 })
 
-it('overenie poctu taskov', () => {
+it('checks off task', () => {
 
 })
 
-it('overenie zaskrtnutia', () => {
+it('checks off task', () => {
 
 })
 
-it('overenie názvu listu', () => {
+it('has proper list name', () => {
+
 
 })

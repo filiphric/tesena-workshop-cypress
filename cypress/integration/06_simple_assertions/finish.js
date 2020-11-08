@@ -7,7 +7,7 @@ beforeEach( () => {
 
 })
 
-it('vytvorenie tasku', () => {
+it('creates a task', () => {
 
   cy
     .contains('Add a card')
@@ -24,7 +24,7 @@ it('vytvorenie tasku', () => {
 
 })
 
-it('overenie poctu taskov', () => {
+it('add another task', () => {
 
   cy
     .contains('Add a card')
@@ -40,7 +40,7 @@ it('overenie poctu taskov', () => {
 
 })
 
-it('overenie zaskrtnutia', () => {
+it('checks off task', () => {
 
   cy
     .get('.Task input')
@@ -56,8 +56,7 @@ it('overenie zaskrtnutia', () => {
 
 })
 
-it('overenie názvu listu', () => {
-
+it('has proper list name', () => {
   cy
     .get('.boardDetail_title')
     .should('have.value', 'new board')

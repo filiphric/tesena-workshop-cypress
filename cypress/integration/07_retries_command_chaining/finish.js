@@ -7,7 +7,7 @@ beforeEach( () => {
 
 });
 
-it('v zozname je mlieko', () => {
+it('„buy milk“ is in the list', () => {
 
   cy
     .contains('mlieko')
@@ -15,21 +15,21 @@ it('v zozname je mlieko', () => {
   cy
     .get('[data-id="81447763519"]')
     .contains('mlieko')
-  
+
 });
 
-it('v druhom zozname je mlieko', () => {
+it('„buy milk“ is in the other list', () => {
 
   cy
     .get('[data-id="81447763519"]')
     .find('.Task')
     .eq(2)
-    .should('contain.text', 'mlieko')
-  
+    .should('contain.text', 'buy milk')
+
 });
 
-it('v druhom zozname je len jeden task', () => {
-  
+it('there’s only one task in second list', () => {
+
   cy
     .get('[data-id="81447763519"] .Task')
     .should('have.length', 2)

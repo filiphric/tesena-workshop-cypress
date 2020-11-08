@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-it('oznacovanie elementov', () => {
+it('selecting elements', () => {
 
   cy
     .visit('/');
@@ -25,7 +25,7 @@ it('oznacovanie elementov', () => {
 
   cy
     .get('.board_item .board_title')
-  
+
   cy
     .get('.board_newItem .board_title')
 

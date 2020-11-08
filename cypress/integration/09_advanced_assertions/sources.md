@@ -1,7 +1,7 @@
 ## Useful reading
-* [jednoduché overovania](https://docs.cypress.io/guides/references/assertions.html#Common-Assertions)
-* [zoznam všetkých spôsobov overovania pomocou funkcie expect](https://docs.cypress.io/guides/references/assertions.html#BDD-Assertions)
-* [dokumentácia k príkaz .then()](https://docs.cypress.io/api/commands/then.html)
-* [použitie príkazu .should() s funkciou](https://docs.cypress.io/api/commands/should.html#Function)
-* [popis toho ako funguje retry jednotlivých príkazov v Cypresse](https://docs.cypress.io/guides/core-concepts/retry-ability.html#Only-the-last-command-is-retried)
-* [môj blog na túto tému testovania zoznamov](https://medium.com/slido-dev-blog/cypress-tips-4-testing-lists-of-items-dccd4b688816)
+* [common assertions](https://docs.cypress.io/guides/references/assertions.html#Common-Assertions)
+* [list of different assertions that can be used with expect function](https://docs.cypress.io/guides/references/assertions.html#BDD-Assertions)
+* [documentation for .then() command](https://docs.cypress.io/api/commands/then.html)
+* [using .should() command with function](https://docs.cypress.io/api/commands/should.html#Function)
+* [description of how retry of different command works in Cypress](https://docs.cypress.io/guides/core-concepts/retry-ability.html#Only-the-last-command-is-retried)
+* [my blog on the topic of testing lists](https://medium.com/slido-dev-blog/cypress-tips-4-testing-lists-of-items-dccd4b688816)

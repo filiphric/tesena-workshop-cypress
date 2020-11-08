@@ -7,50 +7,50 @@ beforeEach( () => {
 
 });
 
-it('overenie textu prveho tasku', () => {
+it('assertion of the text of first task', () => {
 
   cy
     .get('.Task').then( items => {
 
-      expect(items).to.contain.text('mlieko');
-        
-    });   
-  
+      expect(items).to.contain.text('buy milk');
+
+    });
+
 });
 
-it('overenie textov vsetkych taskov', () => {
+it('assertion for texts of all tasks', () => {
 
   cy
     .get('.Task')
     .then( items => {
 
-      expect(items[0]).to.contain.text('mlieko');
-      expect(items[1]).to.contain.text('chlieb');
-        
+      expect(items[0]).to.contain.text('buy milk');
+      expect(items[1]).to.contain.text('wash dishes');
+
     });
-  
+
 });
 
-it('task s textom „syr“ je na poslednej pozicii (riesenie 1)', () => {
+it('task with the text „buy milk” should be last (solution 1)', () => {
 
   cy
     .get('.Task')
     .should('have.length', 3)
     .last()
-    .should('contain.text', 'syr');
-  
+    .should('contain.text', 'buy milk');
+
 });
 
-it('task s textom „chlieb“ je na prvej pozícii  (riesenie 2)', () => {
+it('task with the text „buy milk“ should be last (solution 2)', () => {
 
   cy
     .get('.Task')
     .should( items => {
 
-      expect(items[0]).to.contain.text('chlieb');
-      expect(items[1]).to.contain.text('mlieko');
-        
+      expect(items[0]).to.contain.text('wash dishes');
+      expect(items[1]).to.contain.text('buy milk');
+
     });
-  
+
 });
 

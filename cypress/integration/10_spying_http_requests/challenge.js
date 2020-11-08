@@ -3,24 +3,24 @@
 beforeEach( () => {
 
   cy
-    .visit(); // doplň si adresu svojho boardu
+    .visit(); // add the url of your board
 
 });
 
-it('vytvorenie tasku', () => {
+it('creating a task', () => {
 
-  // vytvor si v teste nový task v zozname a odsleduj si request, ktorý sa udeje pri jeho vytvorení. pomocou príkazov .its() a .should() si otestuj status alebo telo odpovede requestu
-
-})
-
-it('odstránenie zoznamu', () => {
-
-  // manuálne si vytvor nový zoznam a pomocou testu tento zoznam odstráň. následne si odsleduj request, ktorý sa volá pri odstránení zoznamu
+  // create a new task in the list and spy on request that happens on creating the task. check the status and body of the response using commands .its() and .should() commands
 
 })
 
-it('zaskrtnutie tasku', () => {
+it('deleting a list', () => {
 
-  // pomocou testu si zaškrtni task v zozname a odsleduj si request, ktorý sa pri tejto akcii odpaľuje. skús si vytvoriť aj zopár testov pre tento request. skús na overenie spoužiť príkaz .then() skontroluj napríklad status kód a telo requestu
+  // manually create a new list and then write a test to delete that list. spy on the request that happens on list deletion
+
+})
+
+it('checking off a task', () => {
+
+  // write a test that will check off a task and then spy on the request that happens during this action. try to write some assertions for the request too. use .then() command for this and test status or response body of the request
 
 })

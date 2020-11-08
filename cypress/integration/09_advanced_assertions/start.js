@@ -7,20 +7,19 @@ beforeEach( () => {
 
 });
 
-it('overenie textu prveho tasku', () => {
+it('assertion of the text of first task', () => {
 
   cy
     .get('.Task')
-    .should('contain.text', 'chlieb')
-
-
-});
-
-it('overenie textov vsetkych taskov', () => {
+    .should('contain.text', 'buy milk')
 
 });
 
-it('task s textom „syr“ je na poslednej pozicii (riesenie 1)', () => {
+it('assertion for texts of all tasks', () => {
+
+});
+
+it('task with the text „buy milk“ should be last (solution 1)', () => {
 
   cy
     .get('.Task')
@@ -29,7 +28,7 @@ it('task s textom „syr“ je na poslednej pozicii (riesenie 1)', () => {
 
 });
 
-it('task s textom „mlieko“ je na poslednej pozícii (riesenie 2)', () => {
+it('task with the text „buy milk“ should be last (solution 2)', () => {
 
 });
 

@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 
 beforeEach( () => {
-  
+
   cy
     .server()
 
@@ -18,8 +18,8 @@ beforeEach( () => {
 
 });
 
-it('nacitanie zoznamu boardov', () => {
-    
+it('loading list of boards', () => {
+
   cy
     .wait('@boardList')
 
@@ -29,7 +29,7 @@ it('nacitanie zoznamu boardov', () => {
 
 })
 
-it('vytvorenie noveho boardu', () => {
+it('creating a new board', () => {
 
   cy
     .get('#new-board')
@@ -38,7 +38,7 @@ it('vytvorenie noveho boardu', () => {
   cy
     .get('.board_addBoard')
     .type('nova zahrada')
-  
+
   cy
     .contains('Save')
     .click()
